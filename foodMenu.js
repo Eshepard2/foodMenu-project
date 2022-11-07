@@ -1,8 +1,5 @@
 
-window.onselect = function (){
-
-
-let menu = {
+let foodMenu = {
     drinks : [
      "Water", "Tea", "Sweet Tea", 
      "Coke", "Dr. Pepper", "Sprite"
@@ -19,20 +16,6 @@ let menu = {
      "Cheesecake", "Chocolate Cake", "Snickerdoodle Cookie"
      ]
     };
-
-
-
-
-
-    let selectMenu = document.getElementById('menu');
-    console.log(`the select menu is ${selectMenu}`);
-    let moreInfoBtn = document.getElementById('moreInfo');
-    console.log(moreInfoBtn);
-
-
-
-
-
+    console.log (foodMenu.drinks); 
 
    
-}
